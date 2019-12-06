@@ -8,20 +8,12 @@
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="static/css/additional.css" />
 	</head>
-	<body class="bg-light-grey text-dark">
+	<body class="bg-white text-dark">
 	<?php if(!(isset($meta['section']))){ 
 	$meta['section'] = 'index';
 	}?>
-	
-	<div class="bg-white">
-		<div class="container pt-3 pb-3">
-			<span class="text-dark profile"></span>
-			<a class="pr-4 text-no-decoration" href="#">Étudiant</a>
-			<a class="pl-4 text-no-decoration" href="#">Tuteur</a>
-		</div>
-	</div>
-	
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary text-light">
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-black text-white no-margin">
 		<div class="container">
 			<a class="navbar-brand" href="#">Entraide-Étudiante.fr</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,19 +21,7 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbar">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-				<a class="nav-link" href="#">Accueil</a>
-				</li>
-				<li class="nav-item active">
-				<a class="nav-link" href="#">Qui sommes-nous ?</a>
-				</li>
-			</ul>
-			<form class="form-inline">
-				<input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Rechercher" />
-				<button class="btn btn-outline-light my-2 my-sm-0" type="submit">Rechercher</button>
-			</form>
-			<a class="nav-item" href="#">Mon Compte</a>
+			<a class="nav-item text-white ml-auto" href="#">Mon Compte</a>
 			</div>
 		</div>
 	</nav>
