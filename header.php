@@ -7,15 +7,20 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="static/css/additional.css" />
+		<script src="static/js/additional.js"></script>
 	</head>
 	<body class="bg-white text-dark">
 	<?php if(!(isset($meta['section']))){ 
 	$meta['section'] = 'index';
+	}
+	
+	if(isset($_GET['userid'])){
+		$id = $_GET['userid'];
 	}?>
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-black text-white no-margin">
+	<nav style="display:none" id="mainMenu" class="navbar navbar-expand-lg navbar-dark bg-black text-white no-margin fixed-top">
 		<div class="container">
-			<a class="navbar-brand" href="#">Entraide-Étudiante.fr</a>
+			<a class="navbar-brand" href="index.php">Entraide-Étudiante.fr</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 			</button>
