@@ -2,17 +2,17 @@
 			<div class="container">
 				<div class="row pt-4 pb-2 text-center">
 					<div class="d-flex align-items-center flex-column col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<a class="h2 text-white" href="index.php">Entraide-Étudiante.fr</a>
+						<a class="h2 text-white" href="index.php"><img src="static/images/logo.png" width="70" height="70" />Entraide-Étudiante.fr</a>
 					</div>
 					<div class="d-flex align-items-center flex-column col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<p><a class="text-white" href="#">Mentions légales</a><br>
-						<a class="text-white" href="#">Qui sommes nous ?</a><br>
-						<a class="text-white" href="#">Contact</a></p>
+						<p><a class="text-white" href="static/images/jean-cloud.png">Mentions légales</a><br>
+						<a class="text-white" href="static/images/jean-cloud.png">Qui sommes nous ?</a><br>
+						<a class="text-white" href="static/images/jean-cloud.png">Contact</a></p>
 					</div>
 					<div class="d-flex align-items-center flex-column col-xs-12 col-sm-12 col-md-4 col-lg-4">
-					<p><a class="text-white" href="#">Nuit de l'info</a><br>
-						<a class="text-white" href="#">Nos technos</a><br>
-						<a class="text-white" href="#">L'équipe</a></p>
+					<p><a class="text-white" href="static/images/jean-cloud.png">Nuit de l'info</a><br>
+						<a class="text-white" href="static/images/jean-cloud.png">Nos technos</a><br>
+						<a class="text-white" href="static/images/jean-cloud.png">L'équipe</a></p>
 					</div>
 				</div>
 				<div class="row pt-4 pb-2 text-center">
